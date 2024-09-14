@@ -1,6 +1,6 @@
 # 🤖 Machine Learning App
 
-Its a ML app for predicting Brian Stroke.
+Its an ML app for predicting Brian Stroke.
 
 ## Demo App
 
