@@ -1,9 +1,6 @@
-# 📦 Machine Learning App
-```
-⬆️ (Replace above with your app's name)
-```
+# 🤖 Machine Learning App
 
-Description of the app ...
+Its a ML app for predicting Brian Stroke.
 
 ## Demo App
 
