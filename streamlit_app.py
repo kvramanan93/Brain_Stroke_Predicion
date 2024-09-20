@@ -13,7 +13,7 @@ st.info('This app predicts the occurrence of Brain Strokes based on your inputs'
 # Load the data
 with st.expander('Data'):
     st.write('**Raw Data**')
-    df = pd.read_csv('https://raw.githubusercontent.com/arpitgour16/Brain_Stroke_prediction_analysis/main/healthcare-dataset-stroke-data.csv')
+    df = pd.read_csv('https://github.com/kvramanan93/Brain_Stroke_Predicion/blob/40f2ecbeb6169fb88ccb4d550a4e7fbda3133d51/healthcare-dataset-stroke-data.csv')
     st.write(df)
 
     st.write('**Features (X)**')
