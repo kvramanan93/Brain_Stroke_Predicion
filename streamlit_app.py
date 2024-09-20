@@ -156,8 +156,6 @@ st.write(f"- **Recall:** {model_info[model_choice]['Recall']}")
 st.write(f"- **F1-score:** {model_info[model_choice]['F1-score']}")
 
 if st.button('Predict'):
-    st.write(models)
-
     # Ensure the selected model is valid
     model = models.get(model_choice)
     if model:
