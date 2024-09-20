@@ -19,8 +19,8 @@ This project implements a stroke prediction system where users can input persona
 * Model Handling: Loads a '.pkl' model for efficient inference.
 
 ## Potential Issues and Solutions
-* Mismatch Between Input and Model Columns
-    Issue: The input data had different feature names (e.g., gender, work_type) than the one-hot encoded features             expected by the model (e.g., gender_1, work_type_1).
-    Solution: The input data was manually transformed using LabelEncoder and OneHotEncoder to match the one-hot encoded       feature names used during training.
-* Incorrect Input Shape for Prediction
-    Issue: The input shape for prediction didn't match the format expected by the model (due to one-hot encoding).            Solution: The input features were encoded using OneHotEncoder inside a ColumnTransformer, ensuring that the input         format was compatible with the trained model.
+* Mismatch Between Input and Model Columns: 
+    - Issue: The input data had different feature names (e.g., gender, work_type) than the one-hot encoded features             expected by the model (e.g., gender_1, work_type_1).
+    - Solution: The input data was manually transformed using LabelEncoder and OneHotEncoder to match the one-hot encoded       feature names used during training.
+* Incorrect Input Shape for Prediction: 
+    - Issue: The input shape for prediction didn't match the format expected by the model (due to one-hot encoding).          - Solution: The input features were encoded using OneHotEncoder inside a ColumnTransformer, ensuring that the input         format was compatible with the trained model.
