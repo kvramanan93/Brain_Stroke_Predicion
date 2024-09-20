@@ -1,6 +1,7 @@
 ## Stroke Prediction App 🧠
 
 This is a Streamlit web application that predicts the likelihood of a stroke based on various health parameters such as gender, age, hypertension, heart disease, BMI, and more. The app uses a pre-trained machine learning model saved in a .pkl file to make predictions.
+
 ![{5B706C6D-C093-437A-AB83-C087553D184C}](https://github.com/user-attachments/assets/f95d1d50-2ecc-4f96-b130-1d2ec41c25aa)
 
 ## Table of Contents
