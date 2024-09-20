@@ -9,7 +9,8 @@ from sklearn.preprocessing import LabelEncoder
 st.title('🧠 BrainStroke Prediction - Machine Learning Models 🤖')
 
 st.info(
-    'This app predicts the occurrence of Brain Strokes based on your inputs using different Machine Learning models.')
+    'This application predicts the likelihood of a stroke based on various health parameters such as gender, age, hypertension,'
+    'heart disease, BMI.')
 
 # Load the data
 with st.expander('Data'):
