@@ -20,7 +20,8 @@ This project implements a stroke prediction system where users can input persona
 * Stroke Prediction: Uses pretrained machine learning models to predict the risk of stroke.
 * Categorical Feature Encoding: Uses `LabelEncoder` and `OneHotEncoder` for categorical data.
 * Model Handling: Loads a `.pkl` model for efficient inference.
-* ![{9DCF4B7C-58D6-4E48-8CFD-67D274AF1985}](https://github.com/user-attachments/assets/07560eb6-3743-4a71-aef2-bd1ec3d33940)
+
+![{9DCF4B7C-58D6-4E48-8CFD-67D274AF1985}](https://github.com/user-attachments/assets/07560eb6-3743-4a71-aef2-bd1ec3d33940)
 
 ## Potential Issues and Solutions
 * Mismatch Between Input and Model Columns: 
