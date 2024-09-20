@@ -1,22 +1,13 @@
-# 🤖 Machine Learning App
+Stroke Prediction App 🧠
 
-Its an ML app for predicting Brian Stroke.
+This is a Streamlit web application that predicts the likelihood of a stroke based on various health parameters such as gender, age, hypertension, heart disease, BMI, and more. The app uses a pre-trained machine learning model saved in a .pkl file to make predictions.
+Table of Contents
 
-## Demo App
+    Overview
+    Features
+    Setup Instructions
+    Model Overview
+    Potential Issues and Solutions
+    Acknowledgements
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://app-starter-kit.streamlit.app/)
-
-## GitHub Codespaces
-
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/streamlit/app-starter-kit?quickstart=1)
-
-## Section Heading
-
-This is filler text, please replace this with text for this section.
-
-## Further Reading
-
-This is filler text, please replace this with a explanatory text about further relevant resources for this repo
-- Resource 1
-- Resource 2
-- Resource 3
+[Overview](#overview)
